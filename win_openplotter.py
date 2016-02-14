@@ -119,7 +119,7 @@ while True:
    Win_D_3 = 0
    Temp_D_3 = 0
 
-   for Cont in range(50):
+   for Cont in range(50): # 50 Averages to compensate air turbulences
 	# Canal 0
         Win_D_0 = Win_D_0 + readAnalogData(0, SCLK, MOSI, MISO, CS, PAUSE)
         Temp_D_0 = Temp_D_0 + readAnalogData(1, SCLK, MOSI, MISO, CS, PAUSE)
