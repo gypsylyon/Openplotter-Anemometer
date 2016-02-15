@@ -6,7 +6,17 @@
 #		 First part: read analog data from MCP3008 or MCP3208
 #		 second part: Calculation of Win vector and win direcction
 #		 third part: send data tu Openplotter via localhost
-
+# Win_Opeplotter is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 2 of the License, or
+# any later version.
+# Win_openplotter is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Openplotter. If not, see <http://www.gnu.org/licenses/>.
 
 
 import time;
